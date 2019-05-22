@@ -9,4 +9,42 @@
 .header {
     background-color: #232f3e;
     border-radius: 5px 5px 0 0;
+    color: #fff;
+}
+
+.header a {
+    color: #bcbdc7;
+    transition: all 0.3s linear;
+}
+
+.topinfo {
+    border-bottom: 1px solid #303e4f;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accountlist {
+    display: flex;
+}
+
+.accountlistlink {
+    display: block;
+    padding: 5px 12px;
+}
+
+.accountlistlink>i {
+    padding-left: 4px;
+}
+
+.accountlistlink:hover {
+    color: #fff;
+}
+
+.languages {
+    padding: 5px 0 0 10px;
+}
+
+.fa-icon {
+    width: 20px;
+    vertical-align: middle;
 }

@@ -1,0 +1,22 @@
+.btn {
+    border: 1px solid #ddd;
+    padding: 5px 8px;
+    color: rgb(85, 85, 85);
+    transition: all 0.1s linear;
+}
+
+.btn_solid:hover {
+    background-color: #F4A137;
+    border-color: #F4A137;
+    color: #fff;
+}
+
+.btn_reg:hover {
+    border-color: #F4A137;
+    color: #F4A137;
+}
+
+.btn_default {
+    background-color: #F4A137;
+    color: #fff;
+}

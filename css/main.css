@@ -1,6 +1,7 @@
 .wrapper {
     width: 90%;
     margin: 10px auto;
+    box-shadow: 0 0 10px 0 silver;
 }
 
 
@@ -159,4 +160,57 @@
 
 .submenulistitem {
     width: 25%;
+}
+
+
+/* main */
+
+.main {
+    background-color: #fff;
+}
+
+.slider {
+    height: 422px;
+    padding: 10px;
+}
+
+.r_ads {
+    width: 25%;
+    margin-left: 10px;
+}
+
+.l_ads {
+    flex-grow: 1;
+}
+
+.r_ads img,
+.l_ads img {
+    width: 100%;
+    height: 100%;
+}
+
+.topproduct {
+    background-color: silver;
+}
+
+.topproductitem {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.topproductimage img {
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+.topproductinfo {
+    align-self: center;
+}
+
+.bestselldetail {
+    flex-grow: 2;
+}
+
+.bestsellitems {
+    flex-grow: 3;
 }

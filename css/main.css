@@ -300,3 +300,113 @@
     padding: 2px;
     margin: 2px;
 }
+
+.banner {
+    padding: 10px;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.newproductitems {
+    width: 25%;
+}
+
+.collectionitem {
+    width: 16.5%;
+    flex-grow: 1;
+}
+
+.collectiondetailitem {
+    background-color: #eee;
+    border: 1px solid transparent;
+}
+
+.collectiondetailitem:hover {
+    border-color: #F4A137;
+    background-color: #fff;
+}
+
+.collectiondetailitem {
+    margin: 5px;
+}
+
+.collectionlink {
+    display: block;
+    border-bottom: 3px solid #F4A137;
+    position: relative;
+}
+
+.collectiontitle {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+.hotsaleitemcontainer {
+    flex-wrap: wrap;
+}
+
+.hotsaleitem {
+    width: 33%;
+    flex-grow: 1;
+}
+
+.hotsaledetail {
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+
+.hotsaleimage {
+    width: 150px;
+}
+
+.hotsaleimage img {
+    width: 100%;
+}
+
+.hotsaleinfo {
+    flex-grow: 1;
+}
+
+.hotcategoryitems {
+    width: 25%;
+}
+
+.hotcategorydetails {
+    margin: 10px;
+}
+
+.hotcategorydetails>h4 {
+    margin: 0 0 10px 0;
+}
+
+.hotcategoryimage {
+    position: relative;
+}
+
+.hotcategoryimage img {
+    width: 100%;
+}
+
+.hotcategoryimage .btn {
+    position: absolute;
+    bottom: 27px;
+    right: 24px;
+}
+
+.hotcategorylistitem {
+    list-style: square;
+    list-style-position: inside;
+}
+
+.hotcategorylistitem:hover,
+.hotcategorylistitem a:hover {
+    color: #F4A137;
+}

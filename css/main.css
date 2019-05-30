@@ -410,3 +410,108 @@
 .hotcategorylistitem a:hover {
     color: #F4A137;
 }
+
+
+/* footer */
+
+.footer {
+    background-color: #232f3e;
+}
+
+.footerinformation,
+.newsletter {
+    border-bottom: 1px solid #303e4f;
+}
+
+.footerinformationitems {
+    width: 25%;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.footer h4 {
+    color: #fff;
+}
+
+.footermenulink {
+    color: #bcbdc7;
+    position: relative;
+}
+
+.footermenulink:hover {
+    color: #fff;
+    padding-right: 12px;
+}
+
+.footermenulink::before {
+    position: absolute;
+    content: ' ';
+    width: 0px;
+    height: 1px;
+    background-color: red;
+    transition: all 0.2s ease;
+    top: 15px;
+    right: 0;
+}
+
+.footermenulink:hover::before {
+    width: 8px;
+    background-color: #F4A137;
+}
+
+.newsletterinput {
+    height: 40px;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.newsletterinput input {
+    border-radius: 0 20px 20px 0;
+}
+
+.newsletterinput .btnsearch {
+    padding: 6px 15px;
+}
+
+.newsletter {
+    padding: 10px;
+    align-items: center;
+}
+
+.newsletterinput h4,
+.sociallinks h4 {
+    color: #fff;
+    padding-left: 20px;
+}
+
+.sociallinks {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sociallink {
+    padding: 8px;
+    border-radius: 50%;
+    background-color: silver;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 2px;
+}
+
+.copyr {
+    padding: 10px;
+    color: #fff;
+}
+
+.copyr_text,
+.copyr_payment {
+    align-items: center;
+    flex-grow: 1;
+}
+
+.copyr_payment {
+    text-align: left;
+}
